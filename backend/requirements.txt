@@ -1,0 +1,39 @@
+# Core Django
+Django==4.2.11
+djangorestframework==3.15.1
+django-cors-headers==4.3.1
+
+# Authentication
+djangorestframework-simplejwt==5.3.1
+
+# Database
+psycopg2-binary==2.9.9
+
+# Background Tasks
+celery==5.3.6
+redis==5.0.3
+django-celery-results==2.5.1
+django-celery-beat==2.6.0
+
+# WebSockets
+channels==4.0.0
+channels-redis==4.2.0
+daphne==4.1.2
+
+# Utilities
+python-decouple==3.8
+django-filter==23.5
+Pillow==10.2.0
+django-extensions==3.2.3
+
+# Validation & Serialization
+drf-spectacular==0.27.1
+jsonschema==4.21.1
+
+# Logging
+structlog==24.1.0
+
+# Testing
+pytest==8.0.2
+pytest-django==4.8.0
+factory-boy==3.3.0

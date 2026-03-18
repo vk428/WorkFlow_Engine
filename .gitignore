@@ -1,0 +1,33 @@
+# Environments
+venv/
+backend/venv/
+.env
+backend/.env
+
+# Logs and outputs
+backend/logs/
+*.log
+backend/pip_out*.txt
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node / JS
+node_modules/
+frontend/node_modules/
+npm-debug.log
+yarn-error.log
+
+# Build files
+frontend/dist/
+frontend/build/
+
+# SQL / DB
+db.sqlite3
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
